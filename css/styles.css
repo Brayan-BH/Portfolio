@@ -11496,7 +11496,23 @@ header.masthead h1, header.masthead .h1 {
     padding: 15px;
     border-radius: 8px;
   }
+  #parpadeo {
   
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  @keyframes parpadeo {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+  }
   #myBtn:hover {
     /* background-color: #1f7a8c; */
     transition: width 2s, height 2s, background-color 2s, transform 2s;
@@ -11506,19 +11522,37 @@ header.masthead h1, header.masthead .h1 {
     background-color: #f6fff8;
     color: #000;
   }
-  #hobbies {
+  #tecnologias {
     background:linear-gradient(to top, #ee3190, #274f69);
     color: #f6fff8;
   }
-
+  #contact{
+    background-color: #f6fff8;
+  }
+#portfolio {
+  background-color: #f6fff8;
+}
   #next{
-    background-color: #274f69;
+    background-color: #913F7E;
     color: #f6fff8;
 ;
   }
   #download{
     background:linear-gradient( to top, #ee3190, #274f69);
-    color: #fff;
+    color: #f6fff8;
   }
-
- 
+  #descargar{
+    background-color: #274f69;
+    color: #f6fff8;
+  }
+.img-html{
+  height: 40px;
+}
+#btn-vermas{
+  background-color: #913F7E;
+  color: #f6fff8;
+}
+#button-enviar{
+  background-color: #913F7E;
+  color: #f6fff8;
+}
